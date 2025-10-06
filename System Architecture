@@ -1,0 +1,9 @@
+Users → SmartPay Mobile App (Flutter)
+│
+│──> REST API (Node.js + Express)
+│
+│──> PostgreSQL Database (Azure)
+│
+│──> Payment Gateways (Paystack / Flutterwave)
+│
+└──> Notification Service (Azure Communication / Firebase Cloud Messaging)
