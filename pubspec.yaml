@@ -1,30 +1,30 @@
+name: smartpay
+description: A modern digital wallet and bill payment app built with Flutter and Node.js.
+version: 1.0.0+1
 
----
+environment:
+  sdk: ">=3.0.0 <4.0.0"
 
-### 🔐 Security Highlights
-- Encrypted token-based authentication (JWT)  
-- PCI DSS–compliant payment gateway integration  
-- Encrypted communication between client and server  
-- Role-based access control for users and admins  
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  fluttertoast: ^8.2.4
+  intl: ^0.19.0
+  firebase_messaging: ^15.0.4
+  url_launcher: ^6.2.4
+  flutter_svg: ^2.0.10
+  awesome_dialog: ^3.1.0
 
----
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
-### ⚙️ Deployment
-SmartPay can be deployed on **Microsoft Azure** using:
-- App Service for the Node.js API  
-- PostgreSQL Database (Flexible Server)  
-- Blob Storage for user assets  
-- Azure Communication for SMS/Email notifications  
-
----
-
-### 🧾 Status
-**Concept build for portfolio demonstration.**  
-This project showcases expertise in fintech app development using secure API integrations and cloud deployment.
-
----
-
-### 👨🏽‍💻 Developer
-**James Friday**  
-📧 [your email]  
-🌐 GitHub: [your GitHub link]
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
