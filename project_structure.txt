@@ -1,0 +1,33 @@
+/lib
+  main.dart
+  /screens
+    login_screen.dart
+    wallet_screen.dart
+    transfer_screen.dart
+    payment_screen.dart
+  /widgets
+  /models
+  /services
+    api_service.dart
+    payment_service.dart
+    notification_service.dart
+
+/backend
+  server.js
+  /routes
+    auth.js
+    wallet.js
+    payment.js
+  /controllers
+  /models
+  /config
+    db.js
+    env.js
+
+/assets
+  /images
+  /icons
+
+/docs
+  system_architecture.png
+  api_endpoints.md
